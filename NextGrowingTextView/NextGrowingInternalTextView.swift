@@ -92,7 +92,7 @@ internal class NextGrowingInternalTextView: UITextView {
     paragraphStyle.alignment = textAlignment
 
     let targetRect = CGRect(
-      x: 5 + textContainerInset.left,
+      x: textContainerInset.left,
       y: textContainerInset.top,
       width: frame.size.width - (textContainerInset.left + textContainerInset.right),
       height: frame.size.height - (textContainerInset.top + textContainerInset.bottom)
